@@ -1,0 +1,70 @@
+.body-font {
+  font-family: Space Grotesk;
+  background-color: #DBDFEA;
+  color: #4C3D3D;
+  padding: 40px 80px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Space Mono;
+  color: #C07F00;
+}
+
+li{
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+a  {
+  text-decoration: none;
+  color: #4C3D3D;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: #FFD95A;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+
+.card1{
+  background-color: white;
+  margin: 50px 450px;
+  border-radius: 5px;
+  border: 4px solid #EAEAEA;
+}
+
+.card2{
+  background-color: white;
+  border-radius: 5px;
+  border: 4px solid #EAEAEA;
+}
+
+@media (max-width: 960px) {
+  .body-font{
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .body-font {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .body-font {
+    width: 300px;
+  }
+}
